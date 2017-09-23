@@ -1,0 +1,32 @@
+form h1 {    
+ color: #009; 
+ }
+
+form > p {    
+ font-size: 22px; 
+ }
+
+label + input {    
+ display: block;    
+ clear: both; 
+}
+
+label ~ input {    
+ display: block; 
+ } 
+ 
+ [rel~=friend] {    
+  font-size: 2em;    
+  background: #eee;    
+  padding: 4px;    
+  text-decoration: none;    
+  border-bottom: 3px solid #ccc; 
+               } 
+[rel~=friend]:link, [rel~=friend]:visited {
+    color: #34444C; 
+    } 
+[rel~=friend]:hover{    
+  background: #ffeb3b;    
+  border-color: #ffc107; 
+}
+
